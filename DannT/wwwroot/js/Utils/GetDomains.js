@@ -1,0 +1,1 @@
+﻿export let localDomain = "https://localhost:7145/";

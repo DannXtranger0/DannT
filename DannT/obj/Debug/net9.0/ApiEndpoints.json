@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "Register",
+    "RelativePath": "api/AuthApi/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelUser",
+        "Type": "DannT.Models.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
