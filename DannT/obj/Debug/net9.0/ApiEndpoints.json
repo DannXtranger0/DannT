@@ -1,6 +1,38 @@
 [
   {
     "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/AuthApi/GoogleLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "Login",
+    "RelativePath": "api/AuthApi/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelUser",
+        "Type": "DannT.Models.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
     "Method": "Register",
     "RelativePath": "api/AuthApi/Register",
     "HttpMethod": "POST",
@@ -13,6 +45,48 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "SavePassword",
+    "RelativePath": "api/AuthApi/SavePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "passwordDTO",
+        "Type": "DannT.Models.DTO.RequestPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "SigninGoogle",
+    "RelativePath": "api/AuthApi/SigninGoogle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "returnUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.FeedController",
+    "Method": "Feed",
+    "RelativePath": "Feed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

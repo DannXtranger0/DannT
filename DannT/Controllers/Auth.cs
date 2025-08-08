@@ -9,6 +9,10 @@ namespace DannT.Controllers
             return View();
         }
 
+        public IActionResult RequestPassword()
+        {
+            return View();
+        }
 
     }
 }
