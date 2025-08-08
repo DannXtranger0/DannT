@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-       
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="AuthApi" asp-action="Logout">Logout</a>
+        } 
     </header>
     <div class="container">
         <main role="main" class="pb-3">

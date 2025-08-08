@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "Logout",
+    "RelativePath": "api/AuthApi",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
     "Method": "GoogleLogin",
     "RelativePath": "api/AuthApi/GoogleLogin",
     "HttpMethod": "GET",

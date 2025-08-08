@@ -7,6 +7,6 @@ form.addEventListener("submit", async (e) => {
     if (res)
         window.location.href = "/Feed";
     else {
-        window.location.href = "/Auth/Forbidden";
+        window.location.href = "/Auth/RequestPassword";
     }
 })

@@ -1,8 +1,8 @@
-﻿import { form, register } from "../Features/Register.js"
+﻿import { form, login} from "../Features/Login.js"
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
-    let res = await register(form);
+    let res = await login(form);
     if (res)
         window.location.href = "/Feed";
     else {

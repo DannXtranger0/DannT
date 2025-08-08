@@ -33,6 +33,7 @@ builder.Services.AddDbContext<MyContext>(options =>
 //Authentication
 builder.Services.AddAuthentication(options =>
 {
+
     //cookies por defecto
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
@@ -41,6 +42,7 @@ builder.Services.AddAuthentication(options =>
 })//Configuración de cookies
     .AddCookie(options =>
     {
+
         options.AccessDeniedPath = "/Auth/Forbidden";
         options.ExpireTimeSpan = TimeSpan.FromDays(3);
     })
@@ -50,6 +52,8 @@ builder.Services.AddAuthentication(options =>
         options.ClientId = builder.Configuration["client_id"]!;
         options.ClientSecret= builder.Configuration["client_secret"]!;
         options.CallbackPath = "/SigninGoogle";
+
+        options.AccessType = "offline";
         // Mapear mas claism si lo necesito
         //options.ClaimActions.MapJsonKey(ClaimTypes.GivenName, "given_name");
         //options.ClaimActions.MapJsonKey(ClaimTypes.Surname, "family_name");

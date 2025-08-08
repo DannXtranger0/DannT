@@ -102,7 +102,14 @@ namespace DannT.Controllers.Api
                 //return Ok(new { status = "Request Password" });
             }
 
-            return Ok();
+            else if(user.Email==email && user.GoogleId == null)
+            {
+                user.GoogleId = googleId;
+                user.Name = name;
+                await _authServices.Autenticate(user);
+            }
+
+            return RedirectToAction("Feed", "Feed");
 
 
 
@@ -132,6 +139,15 @@ namespace DannT.Controllers.Api
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
             return Ok(user);
+        }
+
+        public IActionResult Logout()
+        {
+            var properties = new AuthenticationProperties
+            {
+                RedirectUri = "/"
+            };
+            return SignOut(properties, CookieAuthenticationDefaults.AuthenticationScheme);
         }
     }
 }

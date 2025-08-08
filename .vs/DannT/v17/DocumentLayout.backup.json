@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Dann\\source\\repos\\DannT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DannT/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\loginpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\loginpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\registerpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\registerpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\features\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\features\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\controllers\\api\\authapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\controllers\\api\\authapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\features\\requestpassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\features\\requestpassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DannT/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\controllers\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\requestpasswordpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\requestpasswordpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,31 +37,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "DannT\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "DannT\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T11:03:39.486Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AuthApi.cs",
               "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\Api\\AuthApi.cs",
               "RelativeDocumentMoniker": "DannT\\Controllers\\Api\\AuthApi.cs",
               "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\Api\\AuthApi.cs",
               "RelativeToolTip": "DannT\\Controllers\\Api\\AuthApi.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAH8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T12:09:30.316Z",
               "IsPinned": true,
@@ -65,52 +55,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestPassword.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\RequestPassword.js",
-              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Features\\RequestPassword.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\RequestPassword.js",
-              "RelativeToolTip": "DannT\\wwwroot\\js\\Features\\RequestPassword.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-08T02:48:38.419Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-08-08T16:08:32.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\Login.js",
+              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Features\\Login.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\Login.js",
+              "RelativeToolTip": "DannT\\wwwroot\\js\\Features\\Login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-08T16:08:26.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "dbo.Users [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/DannT/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-08T03:49:46.822Z",
+              "WhenOpened": "2025-08-08T16:06:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "DannT\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Services\\AuthServices.cs",
+              "RelativeToolTip": "DannT\\Services\\AuthServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswBoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:03:04.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterPage.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\RegisterPage.js",
+              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\RegisterPage.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\RegisterPage.js",
+              "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\RegisterPage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-08T16:00:34.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Auth.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\Auth.cs",
-              "RelativeDocumentMoniker": "DannT\\Controllers\\Auth.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\Auth.cs",
-              "RelativeToolTip": "DannT\\Controllers\\Auth.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T03:18:16.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestPasswordPage.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\RequestPasswordPage.js",
-              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\RequestPasswordPage.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\RequestPasswordPage.js",
-              "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\RequestPasswordPage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-08T02:56:13.74Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "DannT\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "DannT\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T15:10:22.561Z",
               "EditorCaption": ""
             }
           ]

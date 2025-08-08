@@ -23,9 +23,16 @@ namespace DannT.Services
             //Claims
             var claimList = new List<Claim>
             {
-                new Claim(ClaimTypes.Email,user.Email)
+                new Claim(ClaimTypes.Email,user.Email),
             };
 
+            if (user.GoogleId != null)
+                claimList.Add(new Claim(ClaimTypes.NameIdentifier, user.GoogleId));
+
+            if (user.Name != null)
+                claimList.Add(new Claim(ClaimTypes.Name, user.Name));
+
+    
             var claimsIdentity = new ClaimsIdentity(
                 claimList, CookieAuthenticationDefaults.AuthenticationScheme);
 
