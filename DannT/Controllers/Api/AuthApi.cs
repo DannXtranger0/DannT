@@ -57,11 +57,12 @@ namespace DannT.Controllers.Api
                 Email = modelUser.Email,
                 HashedPassword = hashedPassword,
             };
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
 
             await _authServices.Autenticate(user);
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+         
 
             return Ok(user);
         }
@@ -106,8 +107,8 @@ namespace DannT.Controllers.Api
             {
                 user.GoogleId = googleId;
                 user.Name = name;
-                await _authServices.Autenticate(user);
             }
+            await _authServices.Autenticate(user);
 
             return RedirectToAction("Feed", "Feed");
 
@@ -140,7 +141,7 @@ namespace DannT.Controllers.Api
             await _context.SaveChangesAsync();
             return Ok(user);
         }
-
+        [HttpGet("Logout")]
         public IActionResult Logout()
         {
             var properties = new AuthenticationProperties

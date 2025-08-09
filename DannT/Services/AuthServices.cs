@@ -24,6 +24,7 @@ namespace DannT.Services
             var claimList = new List<Claim>
             {
                 new Claim(ClaimTypes.Email,user.Email),
+                new Claim("UserId",user.Id.ToString())
             };
 
             if (user.GoogleId != null)

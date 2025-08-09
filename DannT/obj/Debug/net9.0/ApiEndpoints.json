@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "DannT.Controllers.Api.AuthApi",
-    "Method": "Logout",
-    "RelativePath": "api/AuthApi",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DannT.Controllers.Api.AuthApi",
     "Method": "GoogleLogin",
     "RelativePath": "api/AuthApi/GoogleLogin",
     "HttpMethod": "GET",
@@ -39,6 +29,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.AuthApi",
+    "Method": "Logout",
+    "RelativePath": "api/AuthApi/Logout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -90,6 +90,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DannT.Controllers.Api.FeedApi",
+    "Method": "Feed",
+    "RelativePath": "api/FeedApi/Feed",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedSearch",
+        "Type": "DannT.Models.DTO.FeedSearchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.TaskApi",
+    "Method": "Create",
+    "RelativePath": "api/TaskApi/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskModel",
+        "Type": "DannT.Models.DTO.CreateTaskDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.TaskApi",
+    "Method": "LoadTags",
+    "RelativePath": "api/TaskApi/LoadTags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.TaskApi",
+    "Method": "Show",
+    "RelativePath": "api/TaskApi/Task/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.TaskApi",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/TaskApi/UpdateStatus/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusModel",
+        "Type": "DannT.Models.DTO.UpdateStatusDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DannT.Controllers.FeedController",
     "Method": "Feed",
     "RelativePath": "Feed",
@@ -97,6 +176,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.TaskController",
+    "Method": "Show",
+    "RelativePath": "Task/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

@@ -36,6 +36,48 @@ namespace DannT.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Tags");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Work"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Study"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Family"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Personal"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Social"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Economy"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Health"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Travel"
+                        });
                 });
 
             modelBuilder.Entity("DannT.Models.Task", b =>
@@ -52,8 +94,9 @@ namespace DannT.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TagId")
                         .HasColumnType("int");

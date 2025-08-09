@@ -1,0 +1,29 @@
+﻿<section>
+   <h1>Create Task</h1>
+   <form>
+       <div>
+           <label for="Title">Title</label>
+           <input type="text" placeholder="Title" name="Title"/>
+       </div>
+        <div>
+            <label for="Deadline">Deadline</label>
+            <input type="Date" placeholder="05/05/2005" name="Deadline" />
+        </div>
+
+        <div>
+            <label for="Description">Description</label>
+            <textarea id="Description" name="Description" placeholder="Description"></textarea>
+        </div>
+
+        <div>
+            <label for="TagId">Tag</label>
+            <select id="TagId" name="TagId">
+                <option value="0">Select A Tag</option>
+            </select>
+        </div>
+
+        <button type="submit">Create Task</button>
+    </form>
+</section>
+
+<script src="~/js/Pages/CreateTaskPage.js" type="module"></script>

@@ -1,4 +1,52 @@
 ﻿<h1>feed</h1>
+
+    
+<section>
+    <form>
+        <div style="display:flex">
+            <div>
+                <input placeholder="Search Task By  Title or Description" name="InputSearch" id="InputSearch" />
+            </div>
+            <div>
+                <div>
+                    <label for="CbCompleted">Completed</label>
+                    <input type="checkbox" id="CbCompleted" name="CbCompleted" />
+                </div>
+                <div>
+                    <label for="CbIncompleted">Incompleted</label>
+                    <input type="checkbox" id="CbPending" name="CbIncompleted" />
+                </div>
+            </div>
+            <div>
+                <select>
+                    <option value="">All Tags</option>
+                </select>
+            </div>
+            <div>
+                <a asp-controller="Task" asp-action="Create" id="btnCreateTask">Create Task</a>
+            </div>
+        </div>
+        
+    </form>
+</section>
+
+<section>
+    <table>
+        <tbody>
+            <tr>
+                <th>Status</th>
+                <th>Task</th>
+                <th>Tag</th>
+                <th>Deadline</th>
+                <th>Action</th>
+            </tr>
+        </tbody>
+
+    </table>
+</section>
+
+<script src="~/js/Pages/FeedPage.js" type="module"></script>
+
 @* <h2>
     @User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value
     @User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value

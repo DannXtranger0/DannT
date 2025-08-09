@@ -253,3 +253,8 @@ C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\kp54ywie8h-i3
 C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\pg1tziezm3-meuxtoplcg.gz
 C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\5j93krsygg-srkgtt8zd3.gz
 C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\crepcskjua-hs29ilzckg.gz
+C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\vfniqrmgxv-tm8au8v5qp.gz
+C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\e0vz61ycld-ppq3hox4jb.gz
+C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\6u4yt3tki4-jr56p67tpt.gz
+C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\kg0cq1n12l-367esvotkk.gz
+C:\Users\Dann\source\repos\DannT\DannT\obj\Debug\net9.0\compressed\5teccktdqn-lj260iyclw.gz

@@ -10,6 +10,9 @@
 </head>
 <body>
     <header>
+        <div>
+            <img src="~/img/Logo.png" />
+        </div>
         @if (User.Identity.IsAuthenticated)
         {
             <a asp-controller="AuthApi" asp-action="Logout">Logout</a>
