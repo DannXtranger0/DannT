@@ -4,6 +4,7 @@ namespace DannT.Controllers
 {
     public class TaskController : Controller
     {
+        [HttpGet("Create")]
         public IActionResult Create()
         {
             return View();

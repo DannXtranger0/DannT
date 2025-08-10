@@ -1,7 +1,8 @@
-﻿import { form,Create,LoadTags} from "../Features/CreateTask.js"
+﻿import { form,selectTagId,Create} from "../Features/CreateTask.js"
+import { LoadTags } from "../Utils/GetTags.js"
 
 document.addEventListener("DOMContentLoaded", async () => {
-   await LoadTags();
+    selectTagId.innerHTML += await LoadTags();
 })
 form.addEventListener("submit", async (e) => {
     e.preventDefault();

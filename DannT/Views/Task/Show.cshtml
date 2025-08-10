@@ -3,17 +3,17 @@
     <form>
         <div>
             <label for="Title">Title</label>
-            <input type="text" placeholder="Title" name="Title" />
+            <input type="text" placeholder="Title" name="Title" id="Title" />
         </div>
         <div>
             <label for="Deadline">Deadline</label>
-            <input type="Date" placeholder="05/05/2005" name="Deadline" />
+            <input type="Date" placeholder="05/05/2005" name="Deadline" id="Deadline" />
         </div>
 
         <div>
             <label for="Description">Description</label>
-            <textarea id="Description" name="Description" placeholder="Description"></textarea>
-        </div>
+            <textarea id="Description" name="Description" placeholder="Description" ></textarea>
+        </div> 
 
         <div>
             <label for="TagId">Tag</label>
@@ -22,8 +22,8 @@
             </select>
         </div>
 
-        <button type="submit">Create Task</button>
+        <button type="submit">Modify Task</button>
     </form>
 </section>
 
-<script src=""></script>
+<script src="~/js/Pages/ShowTaskPage.js" type="module"></script>

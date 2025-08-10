@@ -149,6 +149,27 @@
   },
   {
     "ContainingType": "DannT.Controllers.Api.TaskApi",
+    "Method": "UpdateTask",
+    "RelativePath": "api/TaskApi/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelTask",
+        "Type": "DannT.Models.DTO.UpdateTaskDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.TaskApi",
     "Method": "UpdateStatus",
     "RelativePath": "api/TaskApi/UpdateStatus/{id}",
     "HttpMethod": "PATCH",
@@ -166,6 +187,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.TaskController",
+    "Method": "Create",
+    "RelativePath": "Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

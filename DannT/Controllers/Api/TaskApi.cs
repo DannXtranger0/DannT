@@ -84,5 +84,22 @@ namespace DannT.Controllers.Api
 
 
         }
+
+        [HttpPut("Update/{id}")]
+        public async Task<IActionResult> UpdateTask([FromBody] UpdateTaskDTO modelTask, int id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var task = _context.Tasks.FirstOrDefault(x => x.Id == id);
+
+            task.Title = modelTask.Title;
+            task.Deadline = modelTask.Deadline;
+            task.Description = modelTask.Description;
+            task.TagId = modelTask.TagId;
+            await _context.SaveChangesAsync();
+            return Ok(new { Status="Update Succesfully" });
+        }
+            
     }
 }
