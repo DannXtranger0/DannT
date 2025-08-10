@@ -100,6 +100,19 @@ namespace DannT.Controllers.Api
             await _context.SaveChangesAsync();
             return Ok(new { Status="Update Succesfully" });
         }
+
+        [HttpDelete("Delete/{id}")]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var task = _context.Tasks.FirstOrDefault(x => x.Id == id);
+
+            _context.Tasks.Remove(task);
+            await _context.SaveChangesAsync();
+            return Ok(new { Status = "Deleted Succesfully" });
+        }
             
     }
 }

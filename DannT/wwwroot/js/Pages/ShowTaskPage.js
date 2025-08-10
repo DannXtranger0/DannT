@@ -1,4 +1,4 @@
-﻿import { form, selectTagId,loadTask,setUpTask,UpdateTask} from "../Features/ShowTask.js"
+﻿import { form,loadTask,setUpTask,UpdateTask} from "../Features/ShowTask.js"
 document.addEventListener("DOMContentLoaded", async () => {
 
     let task = await loadTask();
@@ -11,3 +11,4 @@ form.addEventListener("submit", async (e) => {
     if (res)
         window.location.href = "/Feed";
 })
+

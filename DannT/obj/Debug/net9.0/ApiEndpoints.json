@@ -123,6 +123,22 @@
   },
   {
     "ContainingType": "DannT.Controllers.Api.TaskApi",
+    "Method": "Delete",
+    "RelativePath": "api/TaskApi/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DannT.Controllers.Api.TaskApi",
     "Method": "LoadTags",
     "RelativePath": "api/TaskApi/LoadTags",
     "HttpMethod": "GET",

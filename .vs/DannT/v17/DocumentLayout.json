@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dann\\source\\repos\\DannT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\controllers\\api\\taskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\controllers\\api\\taskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\features\\feed.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\features\\feed.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\features\\showtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\features\\showtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\models\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\models\\dto\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\showtaskpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\showtaskpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\feedpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\feedpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\createtaskpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\createtaskpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\wwwroot\\js\\pages\\loginpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\wwwroot\\js\\pages\\loginpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\views\\task\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\views\\task\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\views\\feed\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\views\\feed\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|c:\\users\\dann\\source\\repos\\dannt\\dannt\\controllers\\api\\taskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A497C95-BF3B-472B-A847-E6C654E54560}|DannT\\DannT.csproj|solutionrelative:dannt\\controllers\\api\\taskapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "TaskApi.cs",
               "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\Api\\TaskApi.cs",
               "RelativeDocumentMoniker": "DannT\\Controllers\\Api\\TaskApi.cs",
               "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\Api\\TaskApi.cs",
               "RelativeToolTip": "DannT\\Controllers\\Api\\TaskApi.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwGQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswGsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T02:42:37.059Z",
               "IsPinned": true,
@@ -64,108 +52,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShowTaskPage.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\ShowTaskPage.js",
-              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\ShowTaskPage.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\ShowTaskPage.js",
-              "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\ShowTaskPage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Feed.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\Feed.js",
+              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Features\\Feed.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\Feed.js",
+              "RelativeToolTip": "DannT\\wwwroot\\js\\Features\\Feed.js",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwFAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-10T01:02:38.831Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShowTask.js",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\ShowTask.js",
-              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Features\\ShowTask.js",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Features\\ShowTask.js",
-              "RelativeToolTip": "DannT\\wwwroot\\js\\Features\\ShowTask.js",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAvwB8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-10T01:02:34.017Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-08-10T03:03:09.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Models\\DTO\\CreateTaskDTO.cs",
-              "RelativeDocumentMoniker": "DannT\\Models\\DTO\\CreateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Models\\DTO\\CreateTaskDTO.cs",
-              "RelativeToolTip": "DannT\\Models\\DTO\\CreateTaskDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T02:07:52.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CreateTaskPage.js",
               "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\CreateTaskPage.js",
               "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\CreateTaskPage.js",
               "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\CreateTaskPage.js",
               "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\CreateTaskPage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-10T02:01:32.279Z",
+              "WhenOpened": "2025-08-10T02:56:50.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "DannT\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "DannT\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T01:59:32.448Z",
+              "DocumentIndex": 1,
+              "Title": "FeedPage.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\FeedPage.js",
+              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\FeedPage.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\FeedPage.js",
+              "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\FeedPage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-10T02:56:49.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DannT\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DannT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.js",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "RelativeDocumentMoniker": "DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "RelativeToolTip": "DannT\\wwwroot\\js\\Pages\\LoginPage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-10T02:56:49.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Feed.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Feed\\Feed.cshtml",
+              "RelativeDocumentMoniker": "DannT\\Views\\Feed\\Feed.cshtml",
+              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Feed\\Feed.cshtml",
+              "RelativeToolTip": "DannT\\Views\\Feed\\Feed.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T00:34:38.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Task\\Show.cshtml",
-              "RelativeDocumentMoniker": "DannT\\Views\\Task\\Show.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Task\\Show.cshtml",
-              "RelativeToolTip": "DannT\\Views\\Task\\Show.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T00:34:09.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Task\\Create.cshtml",
-              "RelativeDocumentMoniker": "DannT\\Views\\Task\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Dann\\source\\repos\\DannT\\DannT\\Views\\Task\\Create.cshtml",
-              "RelativeToolTip": "DannT\\Views\\Task\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T00:33:17.113Z",
+              "WhenOpened": "2025-08-10T02:55:24.476Z",
               "EditorCaption": ""
             }
           ]

@@ -51,7 +51,7 @@ function SetStatus(currentStatus,td,row,taskId) {
     if (currentStatus == "Completed")
         input.checked = true;
 
-        addFuncionalityCheckBox(input,taskId)
+    addFuncionalityCheckBox(input, taskId)
 
     td.appendChild(input);
     row.appendChild(td);
@@ -78,6 +78,7 @@ function SetActions(taskId, td, row) {
     anchorEdit.textContent = "Edit";
     anchorEdit.href = `/Task/${taskId}`;
     buttonDelete.textContent = "Delete";
+    addFuncionalityDeleteButton(buttonDelete, taskId);
 
     let div = document.createElement("div");
 
@@ -86,4 +87,18 @@ function SetActions(taskId, td, row) {
 
     td.appendChild(div);
     row.appendChild(td);
+}
+
+
+async function addFuncionalityDeleteButton(button, taskId) {
+    button.addEventListener("click", async () => {
+        await getJson(localDomain + `api/TaskApi/Delete/${taskId}`, {
+            method: "DELETE",
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        });
+
+    })
+
 }

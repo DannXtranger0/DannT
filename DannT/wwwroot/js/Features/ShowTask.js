@@ -25,7 +25,7 @@ export async function setUpTask(task) {
     selectTagId.value = task.tagId;
 }
 
-export async function UpdateTask(form) {
+export async function UpdateTask(form){
     let formData = formToObject(form);
     formData.TagId = selectTagId.options[selectTagId.selectedIndex].value;
 
@@ -39,3 +39,4 @@ export async function UpdateTask(form) {
 
     return response ? true : false;
 }
+
