@@ -1,31 +1,63 @@
-html {
-  font-size: 14px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+:root {
+    --background-color: #1D1D1D;
+    --font: "Nunito Sans";
+    --form-color: #262529;
+    --white-color: #F3F3F3;
+    --font-size: "1em";
+    --blue-color: #2272FF;
+    --button-font: "1.4em";
+    --button-weight: 600;
 }
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: var(--background-color);
+    color: var(--white-color);
+    font-family: var(--font);
+}
+header {
+    margin: 3.5vh 0;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.logo img {
+    width: 13vw;
+}
+.wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.button {   
+    padding: 15px 40px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    font-size: var(--button-font);
+    color: var(--white-color);
+    font-weight: var(--button-weight);
+    cursor: pointer;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    align-content:center;
 }
+.button-blue{
+    background-color: var(--blue-color);
+}
+.button-white{
+    background-color: var(--white-color);
+    color: var(--background-color);
+}
+
+
+

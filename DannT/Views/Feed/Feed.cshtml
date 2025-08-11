@@ -1,39 +1,35 @@
-﻿<h1>feed</h1>
-
-    
+﻿@{
+    ViewData["css"] = "FeedCss.css";
+}
 <section>
     <form>
-        <div style="display:flex">
-            <div>
-                <input placeholder="Search Task By  Title or Description" name="InputSearch" id="InputSearch" />
-            </div>
-            <div>
-                <div>
-                    <label for="CbCompleted">Completed</label>
-                    <input type="checkbox" id="CbCompleted" name="CbCompleted" />
+        <div class="header-container">
+                <input class="input-text" placeholder="Search Task By  Title or Description" name="InputSearch" id="InputSearch" />
+                
+                <div class="cb-wrapper">
+
+                    <div  class="cb-container">
+                        <label for="CbCompleted">Completed</label>
+                        <input type="checkbox" id="CbCompleted" name="CbCompleted" class="cb-search" />
+                    </div>
+                    <div class="cb-container">
+                        <label for="CbPending">Incompleted</label>
+                    <input type="checkbox" id="CbPending" name="CbPending" class="cb-search" />
+                    </div>
                 </div>
-                <div>
-                    <label for="CbIncompleted">Incompleted</label>
-                    <input type="checkbox" id="CbPending" name="CbIncompleted" />
-                </div>
-            </div>
-            <div>
-                <select>
-                    <option value="">All Tags</option>
+
+                <select id="TagId" class="input-select">
+                    <option value="0">All Tags</option>
                 </select>
-            </div>
-            <div>
-                <a asp-controller="Task" asp-action="Create" id="btnCreateTask">Create Task</a>
-            </div>
+            <a class="button button-blue" asp-controller="Task" asp-action="Create" id="btnCreateTask">Create Task</a>
         </div>
-        
     </form>
 </section>
 
-<section>
+<section class="table-container">
     <table>
         <tbody>
-            <tr>
+            <tr class="table-headers">
                 <th>Status</th>
                 <th>Task</th>
                 <th>Tag</th>

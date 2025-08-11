@@ -3,10 +3,19 @@ import { formToObject } from "../Utils/GetFormData.js"
 import { localDomain} from "../Utils/GetDomains.js"
 
 export let form = document.querySelector("form");  
+export let selectTagId = document.getElementById("TagId");
+
 let table = document.querySelector("tbody");
+let cbCompleted = document.getElementById("CbCompleted");
+let cbPending = document.getElementById("CbPending");
 
 export async function Search(form) {
     let formData = formToObject(form);
+    formData.CbCompleted = cbCompleted.checked;
+    formData.CbPending = cbPending.checked;
+    formData.TagId = selectTagId.options[selectTagId.selectedIndex].value;
+
+    console.log(formData);
     let response = await getJson(localDomain + "api/FeedApi/Feed", {
         method: "POST",
         headers: {
@@ -18,6 +27,7 @@ export async function Search(form) {
     return response;
 }
 export async function SetTasks(data) {
+    table.querySelectorAll("tr:not(.table-headers)").forEach(x => x.remove());
     data.forEach(elem => {
         let row = document.createElement("tr");
 
@@ -47,7 +57,7 @@ export async function SetTasks(data) {
 function SetStatus(currentStatus,td,row,taskId) {
     let input = document.createElement("input");
     input.type = "checkbox";
-
+    input.classList.add("cb-search");
     if (currentStatus == "Completed")
         input.checked = true;
 
@@ -58,6 +68,14 @@ function SetStatus(currentStatus,td,row,taskId) {
 }
 async function addFuncionalityCheckBox(input,taskId) {
     input.addEventListener("change", async () => {
+        let sound;
+        if (input.checked == true) 
+            sound =new Audio("/audio/check.mp3");
+         else
+            sound = new Audio("/audio/descheck.mp3");
+
+        sound.play();
+
          await getJson(localDomain + `api/TaskApi/UpdateStatus/${taskId}`, {
             method: "PATCH",
             headers: {
@@ -75,12 +93,17 @@ function SetActions(taskId, td, row) {
     let anchorEdit = document.createElement("a");
     let buttonDelete = document.createElement("button");
 
-    anchorEdit.textContent = "Edit";
     anchorEdit.href = `/Task/${taskId}`;
-    buttonDelete.textContent = "Delete";
+
+    anchorEdit.classList.add("btn-action");
+    buttonDelete.classList.add("btn-action");
+
+    anchorEdit.classList.add("bg-pencil");
+    buttonDelete.classList.add("bg-delete");
     addFuncionalityDeleteButton(buttonDelete, taskId);
 
     let div = document.createElement("div");
+    div.classList.add("actions-container");
 
     div.appendChild(anchorEdit);
     div.appendChild(buttonDelete);

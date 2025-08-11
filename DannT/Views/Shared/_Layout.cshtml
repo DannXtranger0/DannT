@@ -7,15 +7,16 @@
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DannT.styles.css" asp-append-version="true" />
+    <link href="/css/@ViewData["css"]" rel="stylesheet" />
 </head>
-<body>
-    <header>
-        <div>
+<body class="wrapper">
+    <header class="header">
+        <div class="logo">
             <img src="~/img/Logo.png" />
         </div>
         @if (User.Identity.IsAuthenticated)
         {
-            <a asp-controller="AuthApi" asp-action="Logout">Logout</a>
+            <a asp-controller="AuthApi" asp-action="Logout" class="button button-white">Log Out</a>
         } 
     </header>
     <div class="container">

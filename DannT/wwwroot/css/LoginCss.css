@@ -1,0 +1,103 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --background-color: #1D1D1D;
+    --font: "Nunito Sans";
+    --form-color: #262529;
+    --white-color: #F3F3F3;
+    --font-size: "1em";
+    --blue-color: #2272FF;
+    --button-font: "1.4em";
+    --button-weight: 600;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.ocult{
+    position:absolute;
+    top:-200vh;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font);
+}
+h2{
+    text-align:center;
+    color: var(--white-color);
+}
+.wrapper{
+    max-width:75%; 
+    margin: 0 auto;
+}
+.logo{
+    text-align:center;
+    margin:5vh 0;
+}
+.logo img{
+    width:13vw;
+}
+.form-login-register{
+    width:40vw;
+    margin:0 auto;
+    background-color: var(--form-color);
+    border-radius: 15px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+    gap: 4vh;
+    transition: all 1s ease;
+}
+
+
+.input-text{
+    height:8vh;
+    width:100%;
+    border-radius:5px;
+    outline:0;
+    border:0;
+    padding-left:1vw;
+    font-size: var(--font-size);
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--blue-color);
+}
+.or{
+    align-self:center;
+    justify-self:center;
+    place-self:center;
+    color: var(--white-color);
+}
+button {
+    padding: .2vh 3.8vw;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    font-size: var(--button-font);
+    color:var(--white-color);
+    font-weight: var(--button-weight);
+    cursor:pointer;
+}
+.btn-login {
+    background-color: var(--blue-color);
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-register {
+    color: var(--blue-color);
+}

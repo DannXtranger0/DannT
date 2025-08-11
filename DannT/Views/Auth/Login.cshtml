@@ -1,57 +1,62 @@
 ﻿@{
     Layout = null;
 }
-<div>
+
+<head>
+    <link  rel="stylesheet" href="~/css/LoginCss.css"/>
+</head>
+
+<div class="logo">
     <img src="img/Logo.png" alt="Alternate Text" />
 </div>
 
-<form id="formLogin">
-    <h2>Log In</h2>
+<form id="formLogin" class="form-login-register ">
+    <section class="form-container wrapper">
+        <h2>Log In</h2>
 
-    <section>
-        <div>
-            <input type="email" placeholder="Email" name="Email" />
-        </div>
-        <div>
-            <input type="password" placeholder="Password" name="Password" />
-        </div>
+        <input class="input-text" type="email" placeholder="Email" name="Email" />
+        <input class="input-text"  type="password" placeholder="Password" name="Password" />
 
-        <div>
-            <input type="checkbox" name="RememberMe" />
+        <div class="input-container">
+            <div>
+                <input type="checkbox" id="RememberMe" name="RememberMe" />
+                <label for="RememberMe">Remember Me</label>
+            </div>
             <a>Forgot Password?</a>
         </div>
 
-        <div>
-            <button type="submit">Log In</button>
-            <p>Or</p>
+        <div class="input-container">
+            <button class="btn-login" type="submit">Log In</button>
+            <p class="or">Or</p>
             <button type="button" id="LoginGoogle">
                <img src="img/gmail.png" style="width:50px;height:50px" />
             </button>
-
         </div>
+
+        <p class="text-register">Dont Have An Account? <span class="underline btn-text-register">Register</span></p>
     </section>
     
 </form>
 
 
-<form id="formRegister">
-    <h2>Register</h2>
+<form id="formRegister" class="form-login-register ocult">
 
-    <section>
-        <div>
-            <input type="email" placeholder="Email" name="Email" />
-        </div>
-        <div>
-            <input type="password" placeholder="Password" name="Password" />
-        </div>
+    <section class="form-container wrapper">
+        <h2>Register</h2>
 
-        <div>
-            <button type="submit">Register</button>
-            <p>Or</p>
+        <input class="input-text" type="email" placeholder="Email" name="Email" />
+        <input class="input-text" type="password" placeholder="Password" name="Password" />
+
+        <div class="input-container">
+            <button class ="btn-login" type="submit">Register</button>
+            <p class="or">Or</p>
             <button type="button" id="LoginGoogle">
                 <img src="img/gmail.png" style="width:50px;height:50px" />
             </button>
         </div>
+
+        <p class="text-register"> Already Have An Account? <span class="underline btn-text-login">Log In</span></p>
+
     </section>
 
 </form>

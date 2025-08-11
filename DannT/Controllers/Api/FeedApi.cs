@@ -21,7 +21,7 @@ namespace DannT.Controllers.Api
             var query = _context.Tasks.Where(x=>x.UserId==userId).AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(feedSearch.InputSearch))
-                query = query.Where(x => x.Title!.Equals(feedSearch) || x.Description.Equals(feedSearch));
+                query = query.Where(x => x.Title.Contains(feedSearch.InputSearch) || x.Description.Contains(feedSearch.InputSearch));
 
 
             if (feedSearch.CbCompleted && !feedSearch.CbPending)

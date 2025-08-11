@@ -1,0 +1,9 @@
+﻿.input-text {
+    height: 8vh;
+    width: 100%;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    padding-left: 1vw;
+    font-size: var(--font-size);
+}

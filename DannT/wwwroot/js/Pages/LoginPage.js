@@ -1,8 +1,9 @@
-﻿import { form, login} from "../Features/Login.js"
+﻿import { formLogin, login,btnRegister,SwitchForm} from "../Features/Login.js"
+import { formRegister} from "../Features/Register.js"
 
-form.addEventListener("submit", async (e) => {
+formLogin.addEventListener("submit", async (e) => {
     e.preventDefault();
-    let res = await login(form);
+    let res = await login(formLogin);
     if (res)
         window.location.href = "/Feed";
     else {
@@ -10,3 +11,7 @@ form.addEventListener("submit", async (e) => {
         window.location.href = "/Auth/Forbidden";
     }
 })
+
+btnRegister.addEventListener("click",()=>{
+    SwitchForm(formLogin, formRegister);
+});

@@ -2,10 +2,11 @@
 import { formToObject } from "../Utils/GetFormData.js"
 import { localDomain} from "../Utils/GetDomains.js"
 
-export let form = document.getElementById("formRegister");
+export let formRegister = document.getElementById("formRegister");
+export let btnLogin = document.querySelector(".btn-text-login");
 
-export async function register(form) {
-    let formData= formToObject(form);
+export async function register(foformRegisterrm) {
+    let formData = formToObject(formRegister);
     let response = await getJson(localDomain + "api/AuthApi/Register", {
         method: "POST",
         headers: {

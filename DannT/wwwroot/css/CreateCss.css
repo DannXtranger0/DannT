@@ -1,0 +1,51 @@
+﻿h1{
+    text-align:center;
+}
+form {
+    width: 50vw;
+    margin: 0 auto;
+    background-color: var(--form-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    gap: 4vh;
+    transition: all 1s ease;
+}
+.input-wrapper{
+    display:flex;
+    justify-content:space-between;
+}
+.input-container {
+    width: 20vw;
+    display: flex;
+    flex-direction:column;
+    }
+
+.input-text {
+    height: 8vh;
+    width: 100%;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    padding-left: 1vw;
+    font-size: var(--font-size);
+    font-family: var(--font);
+}
+
+.input-select {
+    height: 6vh;
+    width: 20vw;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    font-family: var(--font);
+    padding: 0 1vw;
+    font-size: var(--font-size);
+}
+
+.btn-create{
+    width:14vw;
+    text-align:center;
+    align-self:center;
+}

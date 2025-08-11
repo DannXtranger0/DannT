@@ -1,13 +1,16 @@
-﻿<section>
+﻿@{
+    ViewData["Css"] = "CreateCss.css";
+}
+<section>
     <h1>Task Details</h1>
     <form>
         <div>
             <label for="Title">Title</label>
-            <input type="text" placeholder="Title" name="Title" id="Title" />
+            <input type="text" placeholder="Title" name="Title" id="Title" class="input-text" />
         </div>
         <div>
             <label for="Deadline">Deadline</label>
-            <input type="Date" placeholder="05/05/2005" name="Deadline" id="Deadline" />
+            <input type="Date" placeholder="05/05/2005" name="Deadline" id="Deadline" class="input-text" />
         </div>
 
         <div>
